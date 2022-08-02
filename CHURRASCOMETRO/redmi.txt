@@ -1,0 +1,11 @@
+Sistema para cálculo de quantidade de carne, bebida, acompanhamento e sobremesa por total de pessoas e horas de duração
+
+
+Carne - 400g por pessoa + de 6 horas - 650
+cerjeva - 1299 ml por pessoa + de 6h 2000 ml
+Refrigerante / agua - 100 ml por pessoa + 6h 1500
+
+
+criaça vale por meio
+
+O usuário poderá selecionar os tipos de acompanhamentos e sobremesas

@@ -1,0 +1,22 @@
+.header{
+    
+}
+
+
+.container{
+    max-width:800px;
+    background: #ccc;
+    padding:20px;
+    text-align: center;
+}
+
+
+.pessoas {
+    margin-top: 20px;;
+}
+
+.pessoas input{
+    display: inline;
+    margin-top: 10px;
+    width: 20%;
+}

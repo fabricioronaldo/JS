@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascômetro</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Churrascômetro</h1>
+
+    </header>
+    <main>
+        <div class="container">
+                <div class="acompanhamentos">
+                    <h2>Selecione os tipos de Acompahamentos</h2>
+                    <input type="checkbox" name="arroz" id="arroz">
+                    <label for="arroz">Arroz</label>
+
+                    <input type="checkbox" name="vinagrete" id="vinagrete">
+                    <label for="vinagrete">Vinagrete</label>
+
+                    <input type="checkbox" name="maionese" id="maionese">
+                    <label for="maionese">Maionese</label>
+
+                    <input type="checkbox" name="farofa" id="farofa">
+                    <label for="farofa">Farofa</label>
+
+                    <input type="checkbox" name="q-qualho" id="q-qualho">
+                    <label for="q-qualho">Queijo Qualho</label>
+
+                    <input type="checkbox" name="p-alho" id="p-alho">
+                    <label for="p-alho">Pão de Alho</label>
+
+                </div>
+
+                <div class="sobremesa">
+                    <h2>Selecione as Sobremesas</h2>
+
+                    <input type="checkbox" name="banana" id="banana">
+                    <label for="banana">Banana</label>
+
+                    <input type="checkbox" name="sorvete" id="sorvete">
+                    <label for="sorvete">Sorteve</label>
+
+                    <input type="checkbox" name="abacaxi" id="abacaxi">
+                    <label for="abacaxi">Abacaxi</label>
+                </div>
+
+                <div class="pessoas">
+                    <input type="number" name="adulto" id="adulto" placeholder="Quantidade de Adultos">
+                    <input type="number" name="crianca" id="crianca" placeholder="Quantidade de Crianças">
+                    <input type="number" name="hora" id="hora" placeholder="Duração em Horas">          
+                    <input onclick="calcular()" type="button" value="CALCULAR">         
+                </div>
+                
+                <div id="resultado">
+
+                </div>
+
+
+
+
+            </form>
+        </div>
+        
+    </main>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
